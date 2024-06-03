@@ -127,7 +127,7 @@ background:#FFFFFF;
  -webkit-transition: all 0.5s;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background:#e73131;
+background:#407bff;
  transition:all 0.5s;
  -moz-transition: all 0.5s;
  -o-transition: all 0.5s;
@@ -149,7 +149,11 @@ ul.navbar-nav {
     line-height: 17px;
 	}
 .navbar-collapse.in{
-overflow:hidden;
+    border-radius: 10px;
+    overflow:hidden;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px) saturate(160%) contrast(50%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
 }
 .tab-img {
     top: 0;
@@ -195,6 +199,9 @@ top:10px;
 .parallex-content {
     top: 20%;
 }
+.owl-pagination{
+    display: flex;
+}
 }
 @media all and (min-width: 299px) and (max-width: 479px) {
 #slider-video {
@@ -234,7 +241,7 @@ background:#FFFFFF;
  -webkit-transition: all 0.5s;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background:#e73131;
+background:#407bff;
  transition:all 0.5s;
  -moz-transition: all 0.5s;
  -o-transition: all 0.5s;
@@ -256,7 +263,11 @@ ul.navbar-nav {
     line-height: 17px;
 	}
 .navbar-collapse.in{
+    border-radius: 10px;
 overflow:hidden;
+background-color: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(20px) saturate(160%) contrast(50%) brightness(140%);
+-webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
 }
 .tab-img {
     top: 0;
@@ -288,4 +299,18 @@ margin-top:30px;
 #footer-down ul li {
     margin-right: 10px;
 }
+
+.owl-theme .owl-controls{
+	margin-top: 0px !important;
+	/* text-align: center; */
+}
+.owl-pagination{
+    display: flex;
+}
+#testimonials {
+    background-image: url(../images/Testimonials/01.jpg);
+    height: 500px;
+    text-align: center;
+}
+
 }

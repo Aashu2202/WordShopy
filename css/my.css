@@ -1,3 +1,5 @@
+
+
 .aboutsvg{
     width: 400px;
 }
@@ -52,7 +54,13 @@
 .img-circle{
     width: 100px;
 }
+.contact-form {
+    display: flex;
+}
 @media all and (min-width: 299px) and (max-width: 479px) {
+    h2{
+        font-size: 25px;
+    }
     #features .nav-tabs{
         display: flex;
     }
@@ -62,5 +70,36 @@
         line-height: 25px;
         font-size: 32px;
         padding: 15px;
+    }
+    .contact-form {
+        display: block;
+    }
+    .contact-icons{
+        display: inline-flex !important;
+        justify-content: center;
+        align-items: start;
+        font-size: 30px !important;
+        color: #407bff;
+    }
+    .contact-sec-1 ul li {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .social-icon{
+        padding: 0px;
+    }
+    #footer-down ul li a i.fa {
+        color: #999;
+        font-size: 16px;
+        border: 2px solid #999;
+        height: 35px;
+        width: 35px;
+        border-radius: 50px;
+        padding: 25%;
+    }
+    #footer-down h2 {
+        color: #444;
+        margin: 10px 0px 15px 0px;
+        text-transform: none;
     }
 }
