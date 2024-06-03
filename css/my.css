@@ -1,0 +1,66 @@
+.aboutsvg{
+    width: 400px;
+}
+.awesome-sec-img{
+    height: 200px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.contact-icons{
+    display: flex !important;
+    justify-content: center;
+    align-items: start;
+    font-size: 55px !important;
+    color: #407bff;
+}
+.d-flex li{
+    text-align: center;
+}
+.contact-form{
+    border-radius: 10px;
+}
+.btn-send{
+    height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+}
+.btn-send:hover{
+    color: white;
+    background-color: #407bff;
+}
+.GeneratedMarquee {
+    /* font-family:'Comic Sans MS'; */
+    font-size:3em;
+    line-height:1em;
+    color:#fff;
+    /* background-color:#FFFFCC; */ 
+    padding:1em;
+}
+.service_img{
+    max-width: 75%;
+}
+
+.teamimg{
+    width: 275px;
+    height: 300px;
+}
+.img-circle{
+    width: 100px;
+}
+@media all and (min-width: 299px) and (max-width: 479px) {
+    #features .nav-tabs{
+        display: flex;
+    }
+    #features .nav-tabs > li > a {
+        width: 100%;
+        height: 60px;
+        line-height: 25px;
+        font-size: 32px;
+        padding: 15px;
+    }
+}
