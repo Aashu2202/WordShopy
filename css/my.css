@@ -41,7 +41,7 @@
     line-height:1em;
     color:#fff;
     /* background-color:#FFFFCC; */ 
-    padding:1em;
+    padding:10px;
 }
 .service_img{
     max-width: 75%;
@@ -49,13 +49,20 @@
 
 .teamimg{
     width: 275px;
-    height: 300px;
+    height: 350px;
 }
 .img-circle{
     width: 100px;
 }
 .contact-form {
     display: flex;
+}
+.shopify{
+    width: 25px;
+}
+.media.service-box:hover .pull-left > i>svg>path {
+	background:#407BFF;
+	fill: #fff;
 }
 @media all and (min-width: 299px) and (max-width: 479px) {
     h2{
@@ -87,6 +94,15 @@
     }
     .social-icon{
         padding: 0px;
+    }
+    .media.service-box {
+        margin: 8px 0;
+    }
+    .heading p {
+        padding: 0px 0px;
+    }
+    .GeneratedMarquee {
+        font-size: 2em;
     }
     #footer-down ul li a i.fa {
         color: #999;

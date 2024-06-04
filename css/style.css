@@ -477,6 +477,7 @@ ul.nav li.active a:before {
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
 	-webkit-transition: all 0.8s;
+	fill: #fff;
 }
 .media-body h5 {
 	font-weight:bolder;
