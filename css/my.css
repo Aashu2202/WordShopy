@@ -68,6 +68,10 @@
     .carousel-caption {
         top: 38%;
     }
+    .media.service-box .pull-left {
+        margin-right: 0px;
+    }
+
     h2{
         font-size: 25px;
     }
